@@ -16,8 +16,16 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    padding-bottom: 1em;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
 }
+
+h4 {
+    font-size: 1.5rem;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+}
+
 
 main {
     display: grid;      /* css grid 사용 */
@@ -31,7 +39,7 @@ header {
 }
 
 section {
-    margin: auto 1rem 4rem 2rem;
+    margin: auto 1rem 2rem 2rem;
 }
 
 #img {
@@ -78,3 +86,17 @@ i {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+
+dt {
+    font-weight: bold;
+    margin:1em auto;
+  }
+dd {
+    margin-left: 1.5em;
+  }
+
+.in {
+    margin-left: 1.5em;
+    text-indent: 10px;
+}
+  
